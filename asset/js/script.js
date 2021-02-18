@@ -1,11 +1,3 @@
-// hamburger
-const menuToggle = document.querySelector('.menu-toggle input');
-const nav = document.querySelector('nav ul');
-
-menuToggle.addEventListener('click', function() {
-    nav.classList.toggle('slide');
-});
-
 // Dark Mode
 const lightMode = document.querySelector(':root');
 const lightModeButton = document.querySelector('.btn');
