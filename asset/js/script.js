@@ -11,8 +11,7 @@ function darkColor() {
     lightMode.style.setProperty('--color-2', '#eeeeee');
     lightMode.style.setProperty('--color-4', '#393e46');
 }
-
-function clickCounter() {
+lightModeButton.addEventListener('click', function(){
     if (typeof(Storage) !== "undefined") {
         if (sessionStorage.clickcount) {
             sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
@@ -27,4 +26,4 @@ function clickCounter() {
     } else {
       document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
     }
-}
+});
