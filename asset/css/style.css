@@ -27,31 +27,6 @@ nav {
     background-color: var(--color-4);
     z-index: 2;
 }
-
-.darkmode {
-    padding-top: 5px;
-}
-.btn {
-    font-family: monospace;
-    background: var(--color-1);
-    color: var(--color-3);
-    border: 0;
-    padding: 5px;
-}
-.btn:hover {
-    color: var(--color-2);
-    border: 0;
-}
-
-/* haeder */
-header {
-    display: inline;
-}
-.jumbotron {
-    display: flex;
-    min-height: 400px;
-    width: 100%;
-}
 .logo {
     font-size: 1em;
     text-decoration: none;
@@ -80,6 +55,30 @@ nav li a:hover {
     padding-left: 5px;
     border-left: 2px solid var(--color-2);
     background-color: var(--color-3);
+}
+.darkmode {
+    padding-top: 5px;
+}
+.btn {
+    font-family: monospace;
+    background: var(--color-1);
+    color: var(--color-3);
+    border: 0;
+    padding: 5px;
+}
+.btn:hover {
+    color: var(--color-2);
+    border: 0;
+}
+
+/* haeder */
+header {
+    display: inline;
+}
+.jumbotron {
+    display: flex;
+    min-height: 400px;
+    width: 100%;
 }
 .greeting {
     display: flex;
@@ -397,7 +396,7 @@ nav li a:hover {
         background: transparent;
         opacity: 0.3;
     }
-    
+
     /* header */
     .jumbotron {
         min-height: 250px;
