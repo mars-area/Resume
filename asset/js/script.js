@@ -1,15 +1,18 @@
 // Dark Mode
 const lightMode = document.querySelector(':root');
 const lightModeButton = document.querySelector('.btn');
+
 function lightColor() {
     lightMode.style.setProperty('--color-1', '#eeeeee');
     lightMode.style.setProperty('--color-2', '#222831');
     lightMode.style.setProperty('--color-4', '#f7f7f7');
+    lightModeButton.innerHTML = 'Dark Mode';
 }
 function darkColor() {
     lightMode.style.setProperty('--color-1', '#222831');
     lightMode.style.setProperty('--color-2', '#eeeeee');
     lightMode.style.setProperty('--color-4', '#393e46');
+    lightModeButton.innerHTML = 'Light Mode';
 }
 function updateTampilan() {
     // jika nilai dari sessionStorage genap tampilkan light, jika nilai ganjil tampilkan dark
