@@ -388,6 +388,16 @@ nav li a:hover {
 
 /* Mobile */
 @media screen and (max-width: 576px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 20vh;
+        right: 0;
+        background: transparent;
+        opacity: 0.3;
+    }
+    
     /* header */
     .jumbotron {
         min-height: 250px;
