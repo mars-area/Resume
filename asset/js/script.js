@@ -36,11 +36,11 @@ lightModeButton.addEventListener('click', function(){
 function updateTampilan() {
     // jika nilai dari sessionStorage genap tampilkan light, jika nilai ganjil tampilkan dark
     if (sessionStorage.clickcount % 2 == 0) {
-        lightColor();
+        darkColor();
+    } else if (sessionStorage.clickcount === undefined) {
+        darkColor();
     } else if (sessionStorage.clickcount % 2 !== 0) {
-        darkColor();
-    } else {
-        darkColor();
+        lightColor();
     }
     console.log(sessionStorage.clickcount);
 };
