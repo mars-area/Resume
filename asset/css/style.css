@@ -430,5 +430,18 @@ header {
         padding: 10px;
         box-sizing: border-box;
     }
+    .explain {
+        padding: 0 10px;
+    }
+    #project h3 {
+        font-size: 1em;
+    }
+    #project p {
+        font-size: 0.8em;
+        margin: 10px 0 0 0;
+        padding: 0px 0 10px 10px;
+        border-bottom: 1px solid var(--color-2);
+        border-left: 1px solid var(--color-2);
+    }
     /* main end */
 }
