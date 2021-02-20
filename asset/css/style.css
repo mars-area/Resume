@@ -292,6 +292,9 @@ header {
     font-size: 2em;
     padding-bottom: 10px;
 }
+.resume p {
+    text-align: justify;
+}
 .img-profile {
     height: 100%;
     padding: 10px 10px 10px 0;
@@ -453,4 +456,16 @@ header {
         border-left: 1px solid var(--color-2);
     }
     /* main end */
+
+    /* aside */
+    .img-profile {
+        height: 60%;
+    }
+    .resume h2 {
+        font-size: 1.25em;
+    }
+    .resume p {
+        font-size: 0.8em;
+    }
+    /* aside end */
 }
