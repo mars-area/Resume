@@ -392,7 +392,7 @@ header {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 20vh;
+        top: 10vh;
         right: 0;
         background: transparent;
         opacity: 0.3;
@@ -400,7 +400,7 @@ header {
 
     /* header */
     .jumbotron {
-        min-height: 250px;
+        min-height: 210px;
     }
     .greeting {
         margin: 0 0 0 0;
