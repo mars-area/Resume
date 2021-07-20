@@ -58,3 +58,14 @@ hamburgerBtn.addEventListener('click', function() {
         line.classList.toggle('length');
     }
 });
+hamburgerBtn.addEventListener('mouseover', function() {
+    // sisipkan kelas length ketika tombol hamburger di mouseover
+    for(let line of hamburgerBox.children) {
+        line.classList.toggle('length');
+    }
+});
+hamburgerBtn.addEventListener('mouseout', function() {
+    for(let line of hamburgerBox.children) {
+        line.classList.toggle('length');
+    }
+});
