@@ -1,0 +1,27 @@
+.kaki {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-6;
+    color: $color-1;
+    font-size: .875rem;
+    margin: 1rem;
+    align-items: center;
+    text-align: justify;
+
+    .list-sosmed {
+        margin: 1rem 0;
+
+        a {
+            img {
+                width: 2rem;
+                margin: 0 .25rem;
+            }
+        }
+    }
+
+    .credits {
+        padding: .5rem;
+        background-color: $color-1;
+        color: $color-2;
+    }
+}
