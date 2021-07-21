@@ -1,3 +1,82 @@
-#project {
-    
+.project {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 1rem;
+
+    .loopstudios {
+        @include project-box();
+
+        img {
+            @include project-img();
+        }
+
+        .explain {
+
+            p {
+                font-size: .875rem;
+            }
+        }
+    }
+
+    .poko {
+        @include project-box();
+
+        img {
+            @include project-img();
+        }
+
+        .explain {
+
+            p {
+                font-size: .875rem;
+            }
+        }
+    }
+
+    .emailform {
+        @include project-box();
+
+        img {
+            @include project-img();
+        }
+
+        .explain {
+
+            p {
+                font-size: .875rem;
+            }
+        }
+    }
+
+    .frugal {
+        @include project-box();
+
+        img {
+            @include project-img();
+        }
+
+        .explain {
+
+            p {
+                font-size: .875rem;
+            }
+        }
+    }
+
+    .wanttolearn {
+        @include project-box();
+
+        img {
+            @include project-img();
+        }
+
+        .explain {
+
+            p {
+                font-size: .875rem;
+            }
+        }
+    }
 }

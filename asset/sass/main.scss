@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+@import 'mixin';
+
 $color-1: #222222;
 $color-2: #ffffff;
 $color-3: #444444;
 $color-4: #68f8ff;
 $color-5: #fafafa;
+$color-6: #f5f5f5;
 
 $font-1: 'Raleway';
 $font-2: 'Open Sans';
+
 
 * {
 	margin: 0;
@@ -34,6 +38,24 @@ body {
     width: 100vw;
 }
 
+h2 {
+	margin: .5rem 0;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.5rem;
+	letter-spacing: .5rem;
+	font-family: $font-1;
+}
+
+h3 {
+	@include title
+}
+
 @import 'header';
-@import 'about';
-@import 'project';
+main {
+	background-color: $color-6;
+
+	@import 'about';
+	@import 'project';
+}

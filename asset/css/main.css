@@ -25,6 +25,26 @@ body {
   width: 100vw;
 }
 
+h2 {
+  margin: .5rem 0;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: .5rem;
+  font-family: "Raleway";
+}
+
+h3 {
+  margin: .5rem 0;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.875rem;
+  letter-spacing: .5rem;
+  font-family: "Raleway";
+}
+
 header {
   background-color: #222222;
   height: 100vh;
@@ -280,13 +300,16 @@ header h1 .titik {
 }
 
 /* Tablet */
-.about {
+main {
+  background-color: #f5f5f5;
+}
+
+main .about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100vw;
   height: auto;
-  background-color: #f5f5f5;
   padding: 1rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -297,7 +320,7 @@ header h1 .titik {
           flex-direction: column;
 }
 
-.about .img__profile {
+main .about .img__profile {
   width: 50%;
   height: 100%;
   padding: .5rem 0 0 .5rem;
@@ -306,36 +329,16 @@ header h1 .titik {
   margin: .5rem;
 }
 
-.about .resume {
+main .about .resume {
   padding: .5rem;
 }
 
-.about .resume h2 {
-  margin: .5rem 0;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 1.5rem;
-  letter-spacing: .5rem;
-  font-family: "Raleway";
-}
-
-.about .resume p {
+main .about .resume p {
   font-size: .875rem;
   text-align: justify;
 }
 
-.about .resume .skills h3 {
-  margin: .5rem 0;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 1.25rem;
-  letter-spacing: .5rem;
-  font-family: "Raleway";
-}
-
-.about .resume .skills ul {
+main .about .resume .skills ul {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -347,7 +350,7 @@ header h1 .titik {
       flex-wrap: wrap;
 }
 
-.about .resume .skills ul li {
+main .about .resume .skills ul li {
   list-style: none;
   margin: .15rem;
   padding: .25rem;
@@ -355,5 +358,163 @@ header h1 .titik {
   color: #ffffff;
   font-size: .75rem;
   border-radius: .25rem;
+}
+
+main .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+}
+
+main .project .loopstudios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .5rem;
+  margin: 1rem 0;
+  border-bottom: 1px solid #222222;
+  border-right: 1px solid #222222;
+}
+
+main .project .loopstudios img {
+  width: 75%;
+  height: auto;
+  padding: .5rem 0 0 .5rem;
+  border-left: 1px solid;
+  border-top: 1px solid;
+}
+
+main .project .loopstudios .explain p {
+  font-size: .875rem;
+}
+
+main .project .poko {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .5rem;
+  margin: 1rem 0;
+  border-bottom: 1px solid #222222;
+  border-right: 1px solid #222222;
+}
+
+main .project .poko img {
+  width: 75%;
+  height: auto;
+  padding: .5rem 0 0 .5rem;
+  border-left: 1px solid;
+  border-top: 1px solid;
+}
+
+main .project .poko .explain p {
+  font-size: .875rem;
+}
+
+main .project .emailform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .5rem;
+  margin: 1rem 0;
+  border-bottom: 1px solid #222222;
+  border-right: 1px solid #222222;
+}
+
+main .project .emailform img {
+  width: 75%;
+  height: auto;
+  padding: .5rem 0 0 .5rem;
+  border-left: 1px solid;
+  border-top: 1px solid;
+}
+
+main .project .emailform .explain p {
+  font-size: .875rem;
+}
+
+main .project .frugal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .5rem;
+  margin: 1rem 0;
+  border-bottom: 1px solid #222222;
+  border-right: 1px solid #222222;
+}
+
+main .project .frugal img {
+  width: 75%;
+  height: auto;
+  padding: .5rem 0 0 .5rem;
+  border-left: 1px solid;
+  border-top: 1px solid;
+}
+
+main .project .frugal .explain p {
+  font-size: .875rem;
+}
+
+main .project .wanttolearn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .5rem;
+  margin: 1rem 0;
+  border-bottom: 1px solid #222222;
+  border-right: 1px solid #222222;
+}
+
+main .project .wanttolearn img {
+  width: 75%;
+  height: auto;
+  padding: .5rem 0 0 .5rem;
+  border-left: 1px solid;
+  border-top: 1px solid;
+}
+
+main .project .wanttolearn .explain p {
+  font-size: .875rem;
 }
 /*# sourceMappingURL=main.css.map */
