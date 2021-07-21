@@ -1,0 +1,25 @@
+.services {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 1rem;
+
+    .webdev {
+        padding: .5rem;
+
+        p {
+            font-size: .875rem;
+            text-align: justify;
+        }
+    }
+
+    .electricaleng {
+        padding: .5rem;
+
+        p {
+            font-size: .875rem;
+            text-align: justify;
+        }
+    }
+}
