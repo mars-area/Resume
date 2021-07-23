@@ -69,3 +69,7 @@ hamburgerBtn.addEventListener('mouseout', function() {
         line.classList.toggle('length');
     }
 });
+const navItemWrapper = document.querySelector('.navbar__items');
+navItem.addEventListener('click', function() {
+    navItem.classList.toggle('show');
+});
